@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react-spotify-web-playback": "^0.14.6"
+  },
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "npm run start --prefix frontend",
+    "start:backend": "npm run start --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
