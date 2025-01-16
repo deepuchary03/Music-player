@@ -12,8 +12,7 @@ function Home() {
   const [playingTrackId, setPlayingTrackId] = useState(null);
   const [hasSearched, setHasSearched] = useState(false);
 
-  const { isLoading, setIsLoading, resultOffset, setResultOffset } =
-    useContext(MusicContext);
+  const { isLoading, setIsLoading, setResultOffset } = useContext(MusicContext);
 
   const fetchAccessToken = async () => {
     try {
