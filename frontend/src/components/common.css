@@ -95,7 +95,7 @@ body {
   background-repeat: no-repeat; /* Prevent repeating */
   height: 100vh; /* Full height */
   margin: 0; /* Remove default margin */
-  background-image: url("./bmw-m5-2025-sports-7680x4320-17322.jpg"); /* Update the path */
+  background-image: url("./pixelcut-export.jpeg"); /* Update the path */
   background-attachment: fixed;
   background-size: cover; /* This ensures the background covers the whole screen */
   background-position: center; /* This centers the background image */
