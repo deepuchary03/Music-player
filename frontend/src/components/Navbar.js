@@ -16,7 +16,7 @@ const Navbar = ({
       <nav className="navbar navbar-expand-lg navbar-custom sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <i className="bi bi-music-note-list mx-2"></i>Spotify Like
+            <i className="bi bi-music-note-list mx-2"></i>Spotify Clone
           </Link>
           <button
             className="navbar-toggler"

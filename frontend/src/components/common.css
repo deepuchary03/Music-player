@@ -2,9 +2,9 @@
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #121212;
+  background-color: #4686b4;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(212, 46, 46, 0.3);
   text-align: center;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .form-group label {
-  color: white;
+  color: black;
   display: block;
   margin-bottom: 5px;
   font-size: 14px;
@@ -41,9 +41,9 @@
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #1db954;
-  background-color: #333333;
-  color: #ffffff;
+  border: 1px solid #1b1f1f;
+  background-color: #efffff;
+  color: black;
 }
 
 .form-control::placeholder {
@@ -51,8 +51,8 @@
 }
 
 .submit-button {
-  background-color: #1db954;
-  color: #ffffff;
+  background-color: #09485a;
+  color: white;
   border: none;
   padding: 12px;
   border-radius: 4px;
@@ -63,12 +63,12 @@
 }
 
 .submit-button:hover {
-  background-color: #1ed760;
+  background-color: #156e9e;
 }
 
 .signin-redirect-button {
   background-color: transparent;
-  color: #1db954;
+  color: #4686b4;
   border: none;
   margin-top: 10px;
   cursor: pointer;
@@ -77,7 +77,7 @@
 }
 
 .signin-redirect-button:hover {
-  color: #1ed760;
+  color: #4686b4;
 }
 
 .signup-image {
@@ -94,8 +94,8 @@ body {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent repeating */
 
-  margin: 0; /* Remove default margin */
-  background-image: url("./pixelcut-export.jpeg"); /* Update the path */
+  margin: 10px; /* Remove default margin */
+  background-image: url("./Blue\ Abstract\ Desktop\ Wallpaper.jpg"); /* Update the path */
   background-attachment: fixed;
   background-size: cover; /* This ensures the background covers the whole screen */
   background-position: center; /* This centers the background image */
@@ -103,15 +103,28 @@ body {
 }
 
 /* Signup container */
+/* Signup container */
+/* Signup container */
 .signup-container {
-  background-color: #1e5c53; /* Semi-transparent background */
+  background-color: rgba(46, 158, 186, 0.5); /* Semi-transparent background */
   padding: 20px; /* Add some padding */
   border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+  box-shadow: 0 4px 8px rgba(22, 111, 175, 0.2); /* Optional: shadow effect */
   max-width: 400px; /* Max width for the form */
   margin: auto; /* Center the container */
   margin-top: 100px; /* Space from the top */
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px); /* Blur effect for the glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: light border for the glass effect */
+}
+
+/* Optional: Add some text styling */
+.signup-container h2 {
+  color: black; /* Text color */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.signup-container p {
+  color: black; /* Text color */
 }
 
 /* Responsive adjustments */
@@ -124,12 +137,12 @@ body {
 /* Navigation button */
 .nav-button {
   background-color: transparent; /* Transparent background */
-  color: #007bff; /* Bootstrap primary color */
+  color: black; /* Bootstrap primary color */
   border: none; /* No border */
   cursor: pointer; /* Pointer cursor on hover */
   text-decoration: underline; /* Underline text */
 }
 
 .nav-button:hover {
-  color: #0056b3; /* Darker shade on hover */
+  color: white; /* Darker shade on hover */
 }
