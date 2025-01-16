@@ -115,7 +115,7 @@ body {
 }
 
 /* Responsive adjustments */
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   .signup-container {
     width: 90%; /* Full width on small screens */
     margin: auto; /* Center the container */
