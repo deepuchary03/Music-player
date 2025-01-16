@@ -24,7 +24,7 @@
 }
 .card-img-top {
   height: 400px;
-  object-fit: calc();
+  object-fit: CALC;
 }
 .navbar-brand {
   color: white;
