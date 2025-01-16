@@ -20,13 +20,16 @@ function Signup() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, password, phone }), // Include phone number
-      });
+      const response = await fetch(
+        "https://music-player-1l1k.onrender.com/signup",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email, password, phone }), // Include phone number
+        }
+      );
 
       if (response.ok) {
         navigate("/signin");
